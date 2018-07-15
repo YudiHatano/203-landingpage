@@ -1,0 +1,82 @@
+#banner{
+    overflow: hidden;
+    margin: 0;
+    border-top: 10px solid #33cc33;
+    height: 100%;
+    width: 100%;
+}
+
+.sobreposicao{
+    position: absolute;
+    top: 45%;
+    left: 3%;
+    font-size: 15pt;
+    color: white;
+}
+
+#textoespecifico{
+    font-family: 'Pacifico';
+    color: white;
+    font-size: 30pt;
+    top: 30%;
+    left: 3%;
+}
+
+#maocel{
+    height: 50%;
+    width: 30%;
+    top: 29%;
+    left:  60%;
+}
+
+#primeira{
+    position: absolute;
+    top:51%;
+    left: 4%;
+    z-index: 1;
+    padding: 5px 7px; 
+    background-color: #848482;
+    border-radius: 50% ;
+}
+#segunda{
+    position: absolute;
+    top:51%;
+    left: 8%;
+    z-index: 1; 
+    padding: 5px 7px; 
+    background-color: #848482;
+    border-radius: 50%;
+}
+#terceira{
+    position: absolute;
+    top:51%;
+    left: 12%;
+    z-index: 1;
+    padding: 5px 7px; 
+    background-color: #848482;
+    border-radius: 50%; 
+}
+
+.transicao:hover{
+    background: #33cc33;
+
+}
+#primeira:hover{
+    background: #33cc33;
+
+}
+#segunda:hover{
+    background: #33cc33;
+
+}
+#terceira:hover{
+    background: #33cc33;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
